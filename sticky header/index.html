@@ -1,0 +1,155 @@
+<!--  <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>Sticky Header</title>
+        <link rel ="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <a href="#" class="logo">LOGO</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+            <section class = "banner">
+                <script type="text/javascript">
+                    window.addEventListener("scroll",function(){
+                        var header = document.querySelector("header");
+                        header.classList.toggle("sticky",window.scrolly > 0);
+                    })
+                    </script>
+            </section>
+        <section id="about">
+            <h1>ABOUT</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio explicabo sunt nisi, quo quaerat modi ipsa eum veniam totam mollitia possimus recusandae, expedita sapiente nam consectetur ducimus? Nostrum, quaerat? Suscipit.</P>
+        </section>
+       
+    </body>
+</html> -->
+
+<!-- 
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Header</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">LOGO</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    
+    <section id="home" class="banner">
+        <img src="women-watch.jpg" alt="Banner Image" class="banner-image"> -->
+        <!-- <h1>Welcome to travel resort</h1> -->
+    <!-- </section>
+    
+    <section id="about">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio explicabo sunt nisi, quo quaerat modi ipsa eum veniam totam mollitia possimus recusandae, expedita sapiente nam consectetur ducimus? Nostrum, quaerat? Suscipit.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias molestiae odio reiciendis quasi, necessitatibus neque, sapiente quis quaerat repellendus consequuntur ab obcaecati quas animi reprehenderit. A, impedit. Distinctio, fugit molestiae.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, fuga nostrum? Quo praesentium, voluptatibus vero eius earum explicabo temporibus! At, molestias possimus! Nam beatae magni eius neque. Enim, quaerat optio?
+        </p>
+    </section>
+    
+    <section id="service">
+        <h1>Service</h1>
+        <p>Our services include web development, mobile app development, and digital marketing. We provide high-quality solutions tailored to your needs.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias quis aut ab amet itaque sunt sint laborum voluptatem, quisquam a dolorem ipsa nihil placeat dolore, aperiam voluptates unde veritatis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus harum consequatur nisi ea mollitia aliquid quibusdam quo tempora exercitationem quam praesentium, error illum rerum dignissimos magni recusandae iste, vero numquam?
+        </p>
+    </section>
+    
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>If you have any questions or would like to get in touch, please email us at contact@example.com or call us at (123) 456-7890.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis laudantium totam iure tenetur dicta nisi, nesciunt esse. Harum amet quisquam expedita! Totam, quasi error maiores assumenda vero eligendi qui possimus!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim accusamus dicta quidem dolorem minima culpa vel, odit iure dolore facere eius vitae libero perspiciatis commodi, sunt omnis, quas sequi harum?
+        </p>
+    </section>
+    
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>  --> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">WatchBrand</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    
+    <section id="home" class="banner">
+        <img src="apple watch.jpg" alt="Watch" class="watch-image">
+        <h1>Welcome to WatchBrand</h1>
+        <p>Discover the perfect timepiece for you.</p>
+    </section>
+    
+    <section id="about">
+        <h1>About Us</h1>
+        <p>"Experience the ultimate blend of style and functionality with the Apple Watch.
+             Designed to seamlessly integrate into your daily life, it offers cutting-edge features such as health and fitness tracking, advanced notifications, and customizable watch faces. 
+             Whether you're staying connected, tracking your workouts, or simply expressing your personal style, the Apple Watch enhances every moment with its innovative technology and sleek design."
+        </p>
+    </section>
+    
+    <section id="service">
+        <h1>Our Services</h1>
+        <p>All AppleCare plans include battery service coverage, which means your battery can be replaced at no charge if we test your product and its battery retains less than 80% of its original capacity. 
+            AppleCare+ also provides coverage for accidental damage from handling, and each incident is subject to a service fee.</p>    </section>
+    
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <script>
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+</body>
+</html> 
+
